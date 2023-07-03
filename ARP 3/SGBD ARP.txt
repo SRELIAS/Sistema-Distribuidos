@@ -1,0 +1,33 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Elias Soares
+Date: 01/07/2023
+
+Apresentação - Sistema de cadastro e controle de pacientes da rede pública de saúde
+
+Nome: Elias Soares
+Matrícula: 211983
+
+Introdução:
+
+Boa tarde a todos, meu nome é Elias Soares e venho apresentar o Sistema de cadastro e controle de pacientes da rede pública de saúde, desenvolvido pela Software House UniSoft. Nesta apresentação, vou destacar como a aplicação dos 12 fatores pode tornar o desenvolvimento do sistema mais robusto, escalável e eficiente, atendendo aos requisitos do cliente e às demandas do setor de saúde.
+
+    Base de Código:
+
+Para garantir uma base de código sólida e bem estruturada, propomos a utilização de uma arquitetura em microsserviços. Essa abordagem permite que cada funcionalidade do sistema seja implementada como um serviço independente, facilitando a manutenção e a evolução do sistema ao longo do tempo. Além disso, ao utilizar uma abordagem de microsserviços, podemos adotar tecnologias modernas, como contêineres Docker e orquestração de contêineres com Kubernetes, garantindo maior portabilidade, escalabilidade e facilidade de implantação.
+
+    Gerenciamento de Dependências:
+
+Para gerenciar as dependências do sistema, iremos adotar ferramentas de gerenciamento de pacotes específicas para cada tecnologia utilizada. Por exemplo, para o backend do sistema, podemos utilizar o gerenciador de pacotes npm para o ecossistema Node.js, enquanto no frontend podemos empregar o Yarn ou o npm novamente, dependendo do framework escolhido. Essas ferramentas nos permitem gerenciar as versões das dependências, facilitando a atualização e o controle de compatibilidade entre os componentes do sistema.
+
+    Configurações:
+
+A gestão de configurações será realizada por meio de variáveis de ambiente, utilizando ferramentas como o dotenv para carregar as configurações em cada ambiente. Dessa forma, podemos separar as configurações sensíveis, como chaves de API e credenciais de banco de dados, do código-fonte, garantindo a segurança das informações. Além disso, ao utilizar variáveis de ambiente, podemos alterar as configurações facilmente em cada ambiente, sem a necessidade de modificar o código-fonte ou reimplantar o sistema.
+
+    Backing Services:
+
+Para garantir a escalabilidade e a eficiência do sistema, iremos utilizar serviços de infraestrutura em nuvem, como bancos de dados gerenciados e serviços de armazenamento. Por exemplo, podemos adotar o Amazon RDS ou o Google Cloud SQL como soluções de banco de dados, garantindo alta disponibilidade, escalabilidade automática e backups regulares dos dados. Ao utilizar esses serviços de backing, podemos nos concentrar no desenvolvimento das funcionalidades do sistema, aproveitando as vantagens oferecidas pelos provedores de nuvem.
+
+    Construir, liberar e executar:
+
+Propomos a implementação de um processo de integração e entrega contínuas (CI/CD) para o sistema. Com a adoção de ferramentas como o Jenkins, GitLab CI/CD ou Travis CI, podemos automatizar o processo de construção, testes e implantação do sistema. Isso garante que cada alteração de código seja testada e implantada em um ambiente.
